@@ -14,4 +14,4 @@ btn = st.button("predict")
 
 if btn:
     prediction=regressor.predict([[a]])
-    st.subheader(prediction)
+    st.text(prediction)
