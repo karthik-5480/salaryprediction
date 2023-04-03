@@ -14,5 +14,5 @@ btn = st.button("predict")
 
 if btn:
     prediction=regressor.predict([[a]])
-    st.header("Predicted salary:")
+    st.subheader("Predicted salary:")
     st.text(prediction[0])
