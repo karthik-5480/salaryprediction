@@ -1,6 +1,8 @@
 import streamlit as st
 import pickle
 
+st.set_page_config(page_title="Salary Prediction App", page_icon="icon.png")
+
 pickle_in = open("regressor.pkl","rb")
 regressor=pickle.load(pickle_in)
 
@@ -16,3 +18,7 @@ if btn:
     prediction=regressor.predict([[a]])
     st.subheader("Predicted salary:")
     st.text(prediction[0])
+
+
+
+
