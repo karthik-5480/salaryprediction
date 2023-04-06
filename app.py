@@ -24,7 +24,7 @@ st.markdown(
     ***
     This app was created by Cheekati Karthik.
     
-    If you have any questions or feedback, please contact me at [ch.karthik5480@gmail.com](mailto:ch.karthik5480@gmail.com).
+    If you have any queries or feedback, please contact me at [ch.karthik5480@gmail.com](mailto:ch.karthik5480@gmail.com).
     """
 )
 
